@@ -1,0 +1,14 @@
+{
+	"name": "SBMCounter for LDR",
+	"version": "0.2",
+	"description": "LDR/Fastladderに、各エントリのソーシャルブックマーク登録数を表示する機能を追加します。",
+	"content_scripts": [
+		{
+			"js": ["main.js"],
+			"matches": [
+				"http://reader.livedoor.com/reader/*",
+				"http://fastladder.com/reader/*"
+			]
+		}
+	]
+}
